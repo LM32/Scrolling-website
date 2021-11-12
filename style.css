@@ -1,0 +1,481 @@
+/****************************
+Main Header Area Hero Section
+*****************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header .content-box {
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(images/pexels-office-1181396.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+
+.menu {
+    display: inline-flex;
+}
+
+.menu img {
+    height: 80px;
+    margin: 0;
+    /* original margin: 20px 0 0 110px; */
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu button {
+    padding: 5px 20px;
+    background: #ff4d73;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.menu button .fa {
+    margin-right: 10px;
+}
+
+.banner-text {
+    width: 80%;
+    color: #fff;
+    margin: 16px auto 0;
+    text-align: center;
+}
+
+.banner-text h2 {
+    margin-top: 150px;
+    font-size: 64px;
+    
+}
+
+.banner-text p {
+    margin: 10px 0 30px;
+    font-size: 16px;
+}
+
+.banner-text a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #ff4d73;
+    display: block;
+    padding: 10px;
+    width: 180px;
+    margin: 175px auto;
+    background: #ff4d73;
+    transition: .5s;
+}
+
+.banner-text a:hover {
+    background: transparent;
+    font-size: 20px;
+}
+
+/**************************
+Service Area
+**************************/
+.content-box {
+    background: #f4f3ff;
+    height: 75vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1::after{
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 190px;
+    margin: 20px auto 50px;
+}
+
+.services .icon {
+    font-size: 25px;
+    margin: 20px auto;
+    padding: 18px;
+    height: 70px;
+    width: 70px;
+    border: 1px solid #ff4d73;
+    border-radius: 50%;
+    color: #ff4d73;
+}
+
+.services p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+    padding: 20px;
+    text-align: justify;
+}
+
+.services span {
+    color: #ff4d73;
+}
+
+.services .col-md-3:hover {
+    background: #ff4d73;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .7s;
+}
+
+.services .col-md-3:hover .icon {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.services .col-md-3:hover p {
+    color: #fff;
+}
+
+.services .col-md-3:hover span {
+    color: #fff;
+}
+
+/*****************************
+Features area
+******************************/
+
+.feature h2 {
+    margin-top: 130px;
+}
+
+.feature h2::after {
+    content: '';
+    background: #ff4d73;
+    display: block;
+    height: 3px;
+    width: 180px;
+    margin: 20px auto 50px;
+    position: absolute;
+    left: 30px;
+}
+
+.feature ul {
+    margin-top: 35px;
+    margin-left: 50px;
+    list-style-type: none;
+}
+
+.feature ul li {
+    line-height: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.feature ul li::after {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #ff4d73;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 17px;
+    left: -25px;
+}
+
+.feature img {
+    margin-top: 140px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: 450px!important;
+}
+
+
+/*****************************
+Footer section
+*****************************/
+
+.footer h1 {
+    padding-top: 50px;
+}
+
+.contact-form {
+    padding: 15px;
+    border: none;
+}
+
+.form-control {
+    border-radius: 0;
+    border: none!important;
+    box-shadow: none;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+.content-form button {
+    border: none;
+    background: #ff4d73;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.contact-info .follow {
+    background-color: #fff;
+    padding: 8px;
+    margin: 15px;
+}
+
+.contact-info .fas {
+    margin: 10px;
+    font-size: 20px;
+    color: #ff4d73;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.contact-info .fab {
+    margin: 10px;
+    font-size: 20px;
+    color: #ff4d73;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.contact-info span {
+    font-size: 14px;
+    
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ff4d73!important;
+    border-color: #007bff;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 14px;
+}
+
+.fa-heart {
+    color: #ff4d73;
+    font-size: 17px;
+}
+
+.footer hr {
+    margin-top: 50px;
+    color: 3px solid #ff4d73!important;
+}
+
+hr {
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid #ff4d73!important; 
+}
+
+.service,
+.feature,
+.footer {
+    margin-top: 10%;
+}
+
+
+/*****************************
+Media Queries
+*****************************/
+/* @media only screen and (max-width: 480px) */
+
+@media only screen and (max-width: 480px) {
+    
+    .flow {
+    overflow-x: hidden;
+    }
+    
+    button {
+        display: none;
+    }
+
+    .subhead {
+        margin-bottom: 5px!important;
+    }
+
+    .content-box {
+        background-position: center;
+        background-size: cover;
+        height: 170vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .banner-text h2 {
+        font-size: 50px;
+        margin-top: 75px;
+    }
+
+    .banner-text a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #ff4d73;
+        display: block;
+        padding: 10px;
+        width: 180px;
+        margin: 9px auto 20px;
+        background: #ff4d73;
+        transition: .5s;
+    }
+
+    .feature,
+    .tps-section,
+    .tps-inview {
+        text-align: center;
+    }
+
+    .feature .img-fluid {
+        margin: 10px auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .feature img {
+    margin-top: 20px;
+    }
+
+    .feature h2::after{
+        margin: auto 100px;
+    }
+
+    .feature ul li::after{
+        /* display: none; */
+        text-align: center;
+        position: absolute;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .flow {
+    overflow-x: hidden;
+    }
+    
+    .content-box {
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+    .banner-text h2 {
+        font-size: 50px;
+        margin-top: 75px;
+    }
+
+    .banner-text a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #ff4d73;
+        display: block;
+        padding: 10px;
+        width: 180px;
+        margin: 9px auto 20px;
+        background: #ff4d73;
+        transition: .5s;
+    }
+
+    .feature,
+    .tps-section,
+    .tps-inview {
+        text-align: center;
+    }
+
+    .feature .img-fluid {
+        margin: 10px auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .feature img {
+    margin-top: 20px;
+    }
+
+    .feature h2::after{
+        margin: auto 100px;
+    }
+
+    .feature ul li::after{
+        /* display: none; */
+        text-align: center;
+        position: absolute;
+        margin-left: 70px;
+    }
+
+}
+
+
+@media only screen and (max-width: 769px) {
+    
+    .flow {
+    overflow-x: hidden;
+    }
+    
+    .content-box {
+    background-position: center;
+    background-size: cover;
+    height: 170vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+    .banner-text h2 {
+        font-size: 45px;
+        margin-top: 75px;
+    }
+
+    .banner-text a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #ff4d73;
+        display: block;
+        padding: 10px;
+        width: 180px;
+        margin: 9px auto 20px;
+        background: #ff4d73;
+        transition: .5s;
+    }
+
+    .feature,
+    .tps-section,
+    .tps-inview {
+        text-align: center;
+    }
+
+    .feature .img-fluid {
+        margin: 10px auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .feature img {
+    margin-top: 20px;
+    }
+
+    .feature h2::after{
+        margin: auto 100px;
+    }
+
+    .feature ul li::after{
+        /* display: none; */
+        text-align: center;
+        position: absolute;
+        margin-left: 30px;
+    }
+
+}
